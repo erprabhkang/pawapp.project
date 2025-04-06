@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAWAPP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PAWAPP</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active" onclick="loadContent('home')">Home</a></li>
+            <li><a href="#" onclick="loadContent('about')">About</a></li>
+            <li><a href="#" onclick="loadContent('help')">Ways to Help</a></li>
+            <li><a href="#" onclick="loadContent('whatwedo')">What We Do</a></li>
+            <li><a href="#" onclick="loadContent('contact')">Contact Us</a></li>
+            <li><a href="#" onclick="loadContent('profile')">Profile</a></li>
+        </ul>
+        <button class="help-btn" onclick="toggleHelp()">?</button>
+    </nav>
+    <div id="content-container">
+        <h2>Welcome to PAWAPP!</h2>
+        <p></p>
+        <body style="background-image:url('homepage-image.jpg');">
+            <div class="text-block">
+                <h4>PAWAPP</h4>
+                <p>Pawapp is committed to rescuing and rehabilitating injured animals 
+                through emergency medical care and post-treatment support so that no animal suffers in pain without rescue.
+                Besides this, our NGO Locator Network enables people to connect with animal welfare organizations nearby them,
+                 making rescues and treatments and eventually adoptions more accessible and efficient.
+                We bridge the gap between those who need help and those who can provide it, 
+                towards a compassionate world where every injured or abandoned animal gets care, hope,
+                 and a second chance in life.</p>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
